@@ -1,0 +1,155 @@
+
+   
+/* 全体のフォントと背景 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+#mapContainer {
+    margin: 20px auto;
+    /* 地図の表示領域サイズ */
+}
+
+
+
+/* ランキングのコンテナ */
+#ranking {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    /* 境界線 */
+    border-radius: 5px;
+    /* 角丸 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* 影 */
+    background-color: #f9f9f9;
+    /* 背景色 */
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ランキングのタイトル */
+#ranking h2 {
+    color: #333;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* 各ランキング項目 */
+#ranking p {
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0;
+    padding: 3px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+/* 特定のランキング項目を強調表示 */
+#ranking p:nth-child(2) {
+    /* 1位 */
+    background-color: gold;
+}
+
+#ranking p:nth-child(3) {
+    /* 2位 */
+    background-color: silver;
+}
+
+#ranking p:nth-child(4) {
+    /* 3位 */
+    background-color: #cd7f32;
+    /* ブロンズ */
+}
+
+
+/* タイトルのスタイル */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* スタート画面のスタイル */
+#startScreen {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background: #fff;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* スタートボタンのスタイル */
+#startButton {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+#startButton:hover {
+    background-color: #4cae4c;
+}
+
+/* ゲーム画面のスタイル */
+#gameScreen {
+    max-width: 800px;
+    margin: auto;
+    display: none; /* 初期状態では非表示 */
+}
+
+/* 選択肢のスタイル */
+#choices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.choice {
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.choice:hover {
+    background-color: #286090;
+}
+
+/* タイマーのスタイル */
+#timer {
+    font-size: 1.2em;
+    color: #d9534f;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* 結果表示のスタイル */
+#result {
+    font-size: 1.4em;
+    color: #5bc0de;
+    text-align: center;
+    margin-top: 20px;
+}
