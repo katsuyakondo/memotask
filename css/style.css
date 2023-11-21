@@ -108,6 +108,22 @@ h1 {
     background-color: #4cae4c;
 }
 
+#RTA{
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+#RTA:hover {
+    background-color: #4cae4c;
+}
+
+
+
 /* ゲーム画面のスタイル */
 #gameScreen {
     max-width: 800px;
